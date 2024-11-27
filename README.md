@@ -17,9 +17,24 @@ Copy, env.example and rename to .env
 
 Run local folder:
 ```
-make build
-make up
-make dev
+  make build
+  make up
+  make dev
+```
+
+*To use 'Make' is required to install it, as Ubuntu OS:*
+
+```
+sudo apt update
+sudo apt install make
+```
+
+*Or use docker commands:*
+
+```
+  docker compose build
+  docker compose up -d
+  composer-install npm-install storage-change storage-permission key-generate db-migrate db-seed
 ```
 
 #### MANUAL
